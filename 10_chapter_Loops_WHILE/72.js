@@ -1,5 +1,5 @@
-let modi = 1;
-while (modi <= 15) {
-    console.log("Modi will do 15+ years");
-    modi++;
+let Onkar = 1;
+while (Onkar <= 15) {
+    console.log("Onkar will do 15+ years");
+    Onkar++;
 }
