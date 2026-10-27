@@ -1,13 +1,9 @@
-// Type 3 =  with argument/parameter but no return type. 
+// Type 4 - With arg/ With return
 
-function greetByName(name){
-    console.log("Hi", name);
+function sumOfTwoNumbers(a,b){
+    return a+b;
 }
 
-greetByName("Pramod");
-greetByName("Dipak");
-greetByName("Meeti");
-greetByName("Sangeetha");
-
-let name1 = greetByName("Sumit");
-console.log(name1);
+let c = sumOfTwoNumbers(4,5);
+console.log(c);
+console.log(sumOfTwoNumbers(4,5));
